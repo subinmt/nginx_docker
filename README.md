@@ -34,7 +34,7 @@ usermod -a -G docker jenkins
 
 ## Terraform Setup
 
-You can use terraform folder created here. This will create the resources for nginx-docker. This module will attach existing IAM role to the ec2 instance.
+You can use terraform folder created here. This will create the resources for nginx-docker. This module will create a new IAM role and attach to the ec2 instance. 
 
 Run terraform:
 ```
